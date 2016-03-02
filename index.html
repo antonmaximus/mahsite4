@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Anton</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+</head> 
+<body >
+    <header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
+        <nav role="navigation" class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#top" class="navbar-brand scroll"><span class="glyphicon glyphicon-home"></span></a>
+            </div>
+            <!-- Collection of nav links and other content for toggling -->
+            <div id="navbarCollapse" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a id="firstSelection" href="#portfolio" class="scroll">Portfolio</a></li>
+                    <li><a href="#resume" class="scroll">Résumé</a></li>
+                    <li><a href="#contact" class="scroll">Contact</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href='//blog.anton23.com/' target='_blank'>Blog</a></li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="intro" class="intro" >
+      <div class="container">
+        <div  id="profilepic" class="pull-right"></div>
+        <div class="spiel">
+            <h1>Anton Agana</h1>
+            <h4 id="losAngeles">Los Angeles, CA</h4>
+            <p>Technical. Visual. I code and I prettify things. I enjoy warm weather, simplicity, Psychology, technology, and being active.</p>
+            <p id="howdy">Howdy!</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div id="portfolio" class="container">
+        <h1 class="page-header">Portfolio</h1>
+        <div class="row">
+            <div id="portfolio-showcase" class="col-xs-12">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a data-toggle="tab" href="#sectionA">2D<span class="detach"> Images</span></a></li>
+                    <li><a data-toggle="tab" href="#sectionB">3D<span class="detach"> Animation</span></a></li>
+                    <li><a data-toggle="tab" href="#sectionC">Programming</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div id="sectionA" class="tab-pane fade in active">
+                        <h3>2D Images</h3>
+                        <div id="myCarousel" class="carousel slide" data-interval="2300" data-ride="carousel">
+                                <!-- Carousel indicators -->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                                </ol>   
+                               <!-- Carousel items -->
+                                <div class="carousel-inner">
+                                    <div class="active item">
+                                        <img src="img/carousel/450_fufu.png" alt="Fufu">
+                                    </div>
+                                    <div class="item">
+                                        <img src="img/carousel/450_savageOppress.png" alt="Savage Oppress">
+                                    </div>
+                                    <div class="item">
+                                        <img src="img/carousel/450_killerSuperAceHighFive.png" alt="Super Ace and Killer">
+                                    </div>
+                                    <div class="item">
+                                        <img src="img/carousel/450_deathWatchNiteOwl.png" alt="Nite Owl">
+                                    </div>
+                                    <div class="item">
+                                        <img src="img/carousel/450_bob.png" alt="Bob">
+                                    </div>
+                                </div>
+
+                                <!-- Carousel nav -->
+                                <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                </a>
+                                <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                </a>
+                        </div>
+                    </div>
+                    <div id="sectionB" class="tab-pane fade">
+                        <h3>3D Animation</h3>
+                        <iframe allowfullscreen="" frameborder="0" class="showcase" src="//www.youtube.com/embed/IGdQ-C8-jlc?wmode=transparent&amp;autoplay=0&amp;rel=0&amp;showinfo=0&amp;autohide=1&amp;color=white&amp;vq=hd720"></iframe>
+                    </div>
+                    <div id="sectionC" class="tab-pane fade">
+                        <h3>Programming</h3>
+                        <iframe allowfullscreen="" frameborder="0" class="showcase" src="//www.youtube.com/embed/DR_7Y5M9ORE?wmode=transparent&amp;autoplay=0&amp;rel=0&amp;showinfo=0&amp;autohide=1&amp;color=white&amp;vq=hd720"></iframe>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div> <!-- End Container Portfolio -->
+
+
+    <div id="resume" class="container">
+        <h1 class="page-header">Résumé</h1>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="list-group">
+                    <div class="list-group-item">
+                        <h4 class="list-group-item-heading">Skills</h4>
+                        <p class="list-group-item-text">Web Development</p>
+                        <p class="list-group-item-text">Programming</p>
+                        <p class="list-group-item-text">Visual Effects &amp; 3D Animation</p>
+                        <p class="list-group-item-text">Graphic/2D Image Design</p>
+                    </div>
+                    <div class="list-group-item">
+                        <h4 class="list-group-item-heading">Experience</h4>
+                        <p class="list-group-item-text">Freelance: <span class="text-muted">Front-end Developer</span></p>
+                        <p class="list-group-item-text">Lucasfilm: <span class="text-muted">Assistant Technical Director</span></p>
+                        <p class="list-group-item-text">EA Sports: <span class="text-muted">Technical Artist Intern</span></p>
+                        <p class="list-group-item-text">Lucasfilm: <span class="text-muted">Digital Training Intern</span></p>
+                        <p class="list-group-item-text">Texas A&M University: <span class="text-muted">Graduate Assistant</span></p>
+                        <p class="list-group-item-text">Bazaarvoice: <span class="text-muted">Implementation Engineer</span></p>
+                    </div>
+
+                    <div class="list-group-item">
+                        <h4 class="list-group-item-heading">Education</h4>
+                        <p class="list-group-item-text">University of Texas: <span class="text-muted">Electrical Engineering</span></p>
+                        <p class="list-group-item-text">Texas A&M University: <span class="text-muted">Visualization Sciences</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div> <!-- End Container Resume -->
+
+    <div id="contact" class="container">
+        <h1 class="page-header">Contact</h1>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="list-group">
+                    <div class="list-group-item">
+                        <a id="sendHere" href="" alt="Email" title="">
+                            <span class="fa-stack fa-lg">
+                              <i class="fa fa-square fa-stack-2x"></i>
+                              <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                            <span id="sendHereText">Enable JavaScript to Reveal Email<span>
+                        </a>
+                    </div>
+                    <br>
+                    <div class="list-group-item">
+                        <h4>External Links</h4>
+                        <p>
+                            <a href="//www.linkedin.com/in/anton23" alt="LinkedIn" title="" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                  <i class="fa fa-square fa-stack-2x"></i>
+                                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                                </span>
+                                LinkedIn
+                            </a>
+                            &#xa0;&#xa0;&#xa0;
+                            <a href="//www.imdb.com/name/nm5641463/" alt="IMDB" title="" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                  <i class="fa fa-square fa-stack-2x"></i>
+                                  <i class="fa fa-film fa-stack-1x fa-inverse"></i>
+                                </span>
+                                IMDB<br>
+                            </a>
+                        </p>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+            </div>
+        </div>  
+    </div> <!-- End Container Contact -->
+
+
+
+
+
+
+
+
+
+    <footer></footer>
+    <!-- jQuery CDN -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <!-- jQuery local fallback -->
+    <script>window.jQuery || document.write('<script src="./jquery-2.1.1.min.js"><\/script>')</script>
+    <!-- Bootstrap JS CDN -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <!-- Bootstrap JS local fallback -->
+    <script>if(typeof($.fn.modal) === 'undefined') {document.write('<script src="./3.1.1/js/bootstrap.min.js"><\/script>')}</script>
+    <!-- Bootstrap CSS local fallback -->
+    <script>
+        $(document).ready(function() {
+        var bodyColor = $('body').css('color');
+        if(bodyColor != 'rgb(51, 51, 51)') {
+        $("head").prepend('<link rel="stylesheet" href="./3.1.1/css/bootstrap.min.css">');}});
+    </script> 
+    <!-- Font Awesome CSS CDN -->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <!-- Font Awesome CSS local fallback -->
+    <!--  <link rel="stylesheet" href="./font-awesome-4.0.3/css/font-awesome.min.css"> -->
+
+
+
+    <link rel="stylesheet" href="./custom.css">
+    <script src='./custom.js'></script>
+    <script>
+        function nextChar(c) {
+            return String.fromCharCode(c.charCodeAt(0) + 1);
+        }
+        var x = "mail" + "to" + ":";
+        var y = "anto" + nextChar('m') + (24-1) + "\u0040g" + "mai" +"l\u002Eco" + nextChar('l');
+        document.getElementById('sendHere').href = x + y; 
+        document.getElementById('sendHereText').innerHTML = y;
+
+        //Hide navbar on mobile afer click
+        $(function() {
+            $('.navbar-nav a').on('click', function(){ 
+                if($('.navbar-toggle').css('display') !='none'){
+                    $(".navbar-toggle").trigger( "click" );
+                }
+            });
+        });
+
+
+
+    </script>
+
+
+</body>
+</html>                                     
